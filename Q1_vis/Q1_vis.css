@@ -1,0 +1,122 @@
+body {
+  --color-primary: #f86464;
+  --color-primary-dark: #d43939;
+  --color-secondary: #252c6a;
+  --color-button-left: #d63227;
+  --color-button-left-dark: #ba2222;
+  --color-button-right: #2744d6;
+  --color-button-right-dark: #223bba;
+  --color-error: #b50404;
+  --color-success: #4bb544;
+  --border-radius: 4px;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.container {
+  width: 600px;
+  margin: 1rem;
+  padding: 2rem;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+  border-radius: var(--border-radius);
+  background: #ffffff;
+}
+
+.container,
+.form__button {
+  font: 500 1rem 'Quicksand', Roboto;
+}
+
+.progress {
+  background-color: #cdcfd1;
+  margin:auto;
+  text-align: center;
+  align-items: center;
+  height: 1rem;
+  width: 450px;
+}
+
+.progress-done {
+  align-items: center;
+  background-color: var(--color-primary);
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  width: 50%;
+}
+
+.question {
+  margin-top: 1.5rem;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.answer {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.table_vis {
+  padding-right: 10rem;
+}
+
+.visionary {
+  background-color: var(--color-button-left);
+  color: white;
+}
+
+.visionary:hover {
+  background-color: var(--color-button-left-dark);
+}
+
+.contributor {
+  color: white;
+  background-color: var(--color-button-right);
+}
+
+.contributor:hover {
+  background-color: var(--color-button-right-dark);
+}
+
+.form__heading {
+  margin-bottom: 3rem;
+}
+
+
+.form__answer {
+  margin: auto;
+}
+
+.form__title {
+  text-align: center;
+  font-family: panchang;
+  color: var(--color-primary);
+  margin-bottom: 0;
+}
+
+.form__slogan {
+  margin: 0;
+  text-align: center;
+  font-family: panchang;
+  font-size: 1rem;
+}
+
+.form__button {
+  width: 100%;
+  padding: 1rem 2rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: var(--border-radius);
+  outline: none;
+  cursor: pointer;
+}
+
+.form__button:active {
+  transform: scale(0.98);
+}
